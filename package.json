@@ -16,8 +16,7 @@
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
     "docgen": "documentation build  src/** -f html -o docs",
     "styleguide-server": "styleguidist server",
-    "styleguide-build": "styleguidist build",
-    "postinstall": "ls && npm run compile"
+    "styleguide-build": "styleguidist build"
   },
   "repository": {
     "type": "git",
